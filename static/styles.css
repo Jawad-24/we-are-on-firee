@@ -1,0 +1,62 @@
+/* Import Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+.min-h-screen {
+  min-height: 100vh;
+}
+
+.bg-light {
+  background-color: #f8f9fa;
+}
+
+.text-2xl {
+  font-size: 1.5rem;
+}
+
+.small {
+  font-size: 0.875rem;
+}
+
+.card {
+  width: 250px;
+}
+
+/* Apply font to the body */
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Custom Header and Footer Styles */
+.header-bg {
+  background: linear-gradient(90deg, #6c757d 0%, #adb5bd 100%); /* Gradient background */
+  color: #ffffff; /* Text color */
+  padding: 1rem; /* Padding */
+}
+
+.footer-bg {
+  background: linear-gradient(90deg, #6c757d 0%, #adb5bd 100%); /* Gradient background */
+  color: #ffffff; /* Text color */
+  padding: 1rem; /* Padding */
+}
+
+.header-bg h1, .footer-bg .btn {
+  color: #ffffff; /* Button and header text color */
+}
+
+.btn-link {
+  color: #ffffff !important; /* Ensure button text color is visible */
+}
+
+.btn-link:hover {
+  color: #d3d3d3 !important; /* Change color on hover for better visibility */
+}
+
+/* Style icons */
+.icon-btn {
+  font-size: 1.5rem; /* Adjust icon size */
+  color: #ffffff; /* Icon color */
+}
+
+.icon-btn:hover {
+  color: #d3d3d3; /* Change color on hover */
+}
